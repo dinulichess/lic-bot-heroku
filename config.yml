@@ -2,7 +2,7 @@ token: "lip_EXDoji9ulOKovlzkxo2J"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./engines"               # Directory containing the engine.
-  name: "NimsiluEngine.exe"                      # Binary name of the engine to use.
+  name: "fsf"                      # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   polyglot:
     enabled: false                         # Activate polyglot book.
@@ -44,14 +44,6 @@ engine:                                   # Engine settings.
     Threads: 3                            # Max CPU threads the engine can use.
     Hash: 128                              # Max memory (in megabytes) the engine can allocate.
     MultiPV: 1
-    Skill Level: 20
-    UCI_Elo : 2850
-    ponder: true
-    Use NNUE: true
-    EvalFile: nn-6877cd24400e.nnue
-    SyzygyPath: "C:/Users/nimsi/Desktop/Chess/NimsiluBot/BotLi-main/engines/Syzygy"         # Path to your local syzygy endgame tablebases
-    SyzygyProbeDepth: 100
-    SyzygyProbeLimit: 7
     
 
 #move_overhead_multiplier: 5.0             # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
